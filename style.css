@@ -1,0 +1,135 @@
+
+body {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	background-color: #171985;
+}
+
+.container {
+	position: relative;
+	background-image: url("planets.png"), linear-gradient(#171985, #000000);
+	max-width:100%;
+	background-repeat: no-repeat;
+	background-position:center top;
+	background-attachment: top;
+	padding: 0;
+}
+
+.grid-container {
+	background-color: black;
+	margin: 0;
+	padding-bottom: 100px;
+	border: 0;
+	display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+	background-color: black;
+	padding-left: 20px;
+	text-align: left;
+	color: white;
+}
+
+.form{
+	line-height: 1.8;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+}
+
+h1{
+	font-size:100px;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	padding: 195px;
+	border: 0;
+	color: white
+}
+
+h3 {
+	font-size: 30px;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	margin: 0 100px;
+	line-height: 0.5;
+	padding: 0;
+}
+
+h2 {
+	font-size: 75px;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: white;
+	margin: 0 100px;
+	padding: 0;
+}
+
+p {
+	background-color: black;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	border: 0;
+	color: white;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  resize: vertical;
+}
+
+input[type=date], input[type=time], select, textarea {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 11px;
+	resize: vertical;
+}
+
+.select {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 11px;
+	resize: vertical;
+}
+
+label {
+  padding: 5px 5px 0px 0px;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #3BB1D0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+	border-radius: 11px;
+	margin-top: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #0c8aa8;
+}
+
+.label {
+  margin-top: 6px;
+}
+
+.box {
+  width: 75%;
+  margin-top: 6px;
+}

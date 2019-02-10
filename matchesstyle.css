@@ -1,0 +1,106 @@
+body {
+	font-family: neue-haas-grotesk-display, sans-serif;
+	margin: auto;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	background-image: linear-gradient(#171985, #000000);
+}
+
+.topnav a {
+  color: white;
+  text-align: left;
+	margin: 22px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+	display: inline-block;
+}
+
+.topnav-right{
+	float: right;
+	padding-top: 26px;
+}
+
+a:hover{
+	color: #696969;
+}
+
+
+
+h1 {
+	font-size:50px;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	margin: 0 100px;
+	line-height: 0.5;
+	padding-top: 150px;
+}
+
+h2 {
+	font-size: 75px;
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: white;
+	margin: 0 100px;
+	padding: 0;
+}
+
+.match-image{
+	float: left;
+	display: block;
+	padding-top: 100px;
+	margin-right: 100px;
+}
+
+.dot img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.dot {
+	height: 305px;
+	width: 300px;
+	background-color: #c12d2d;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+
+.match-description{
+	padding-top: 100px;
+	margin-right: 100px;
+}
+
+p1{
+	color: white;
+	font-weight:400;
+}
+
+.yes-no img{
+	float: right;
+	padding-top: 100px;
+	padding-left: 20px;
+}
+
+.yes-no {
+	padding-bottom: 100px;
+	padding-right: 100px;
+}
